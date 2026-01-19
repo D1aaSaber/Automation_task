@@ -1,0 +1,23 @@
+# Vision Settings
+vision:
+  confidence: 0.65
+  target_text: "Notepad"
+  scale_steps: 10
+
+# Bot Speed & Stability
+automation:
+  mouse_speed: 0.8
+  typing_interval: 0.01
+  window_timeout: 10
+  save_dialog_wait: 4
+
+# API Settings
+data:
+  post_limit: 3
+  api_url: "https://jsonplaceholder.typicode.com/posts"
+
+# Folder Paths
+paths:
+  assets: "assets"
+  output: "output_files"
+  template: "notepad_icon.png"
